@@ -1,0 +1,40 @@
+html, body, h1, h2, h3, p, ol, ul, li, a{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: 100%;
+    font: inherit;
+}
+body {
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+
+}
+.content {
+    padding: 5px;
+    border: 1px solid #000;
+    margin: 170px auto auto auto;
+    width: 350px;
+    height: 350px;
+}
+h1 {
+    padding: 20px 5px;
+    font-size: 50px;
+}
+ul {
+
+}
+li {
+   padding: 10px 5px;
+   list-style: none;
+   font-size: 20px;
+}
+input {
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+input[type=submit] {
+    display: inline;
+    width: 200px;
+}
